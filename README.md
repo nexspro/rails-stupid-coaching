@@ -1,24 +1,31 @@
-# README
+#  Rails Stupid Coaching
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A playful Ruby on Rails application simulating a basic coaching interface. Users can ask questions or make statements, and receive humorous, predefined responses based on their input.
 
-Things you may want to cover:
+---
 
-* Ruby version
+##  Features
 
-* System dependencies
+- 💬 Interactive form to submit questions or statements
+- 🤖 Coach responds with:
+  - `"Great!"` if the message is `"I am going to work"`
+  - `"Silly question, get dressed and go to work!"` if the message ends with a question mark
+  - `"I don't care, get dressed and go to work!"` for any other input
 
-* Configuration
+---
 
-* Database creation
+## 🛠 Tech Stack
 
-* Database initialization
+- **Ruby on Rails** (MVC framework)
+- **ERB** (Embedded Ruby for views)
+- **SQLite3** (default development database)
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+##  Setup Instructions
 
-* Deployment instructions
+1. **Clone the repository:**
 
-* ...
+   ```bash
+   git clone https://github.com/nexspro/rails-stupid-coaching.git
+   cd rails-stupid-coaching
